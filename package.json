@@ -1,0 +1,25 @@
+{
+  "name": "nuxtjs-graphql-craftcms",
+  "version": "1.0.0",
+  "description": "A website made out of Nuxt.js + GraphQL + Apollo + CraftCMS",
+  "author": "Leonardo Silva",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/apollo": "^4.0.0-rc.4",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "apollo-fetch": "^0.7.0",
+    "core-js": "^2.6.5",
+    "node-fetch": "^2.3.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0"
+  }
+}

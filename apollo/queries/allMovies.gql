@@ -1,0 +1,9 @@
+{
+  entries {
+    slug
+    title
+    ... on movie_post_Entry {
+      description
+    }
+  }
+}
